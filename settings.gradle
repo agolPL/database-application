@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'http://artifactory.intranet.ppl.corp/artifactory/repo'
+        }
+    }
+}
+
+rootProject.name = 'database-application'
+
