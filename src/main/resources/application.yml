@@ -7,6 +7,5 @@ spring:
     password: ${database.password}
     driverClassName: ${database.driver:org.postgresql.Driver}
 
-
-liquibase:
-  change-log: classpath:/liquibase/changelog-master.xml
+  liquibase:
+    change-log: classpath:/liquibase/changelog-master.xml
