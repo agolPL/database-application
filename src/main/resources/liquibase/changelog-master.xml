@@ -6,7 +6,7 @@
     <property name="textColumn" value="varchar(255)" dbms="h2"/>
     <property name="textColumn" value="text" dbms="postgresql"/>
 
-    <changeSet id="flight-plans-db" author="agolawski">
+    <changeSet id="create-person-table" author="agolawski">
 
         <createTable tableName="person">
             <column name="id" type="bigint" autoIncrement="true">
