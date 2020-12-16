@@ -9,3 +9,12 @@ spring:
 
   liquibase:
     change-log: classpath:/liquibase/changelog-master.xml
+
+management:
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+  endpoints:
+    web:
+      exposure:
+        include: "*"
